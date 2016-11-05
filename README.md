@@ -2,6 +2,22 @@
 
 This README outlines the details of collaborating on this Ember addon.
 
+## Configuration
+
+```
+// config/environment.js
+
+module.exports = function(environment) {
+  var ENV = {
+    qualtrics: {
+      key: 'ZN_sdfasjskjfkjlsj',
+      subdomainPrefix: 'zsdfasdfsadf-qcorp',
+      disabled: false,
+    }
+  }
+}
+```
+
 ## Installation
 
 * `git clone <repository-url>` this repository

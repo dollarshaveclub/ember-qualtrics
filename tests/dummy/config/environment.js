@@ -1,22 +1,29 @@
 /* jshint node: true */
 
-module.exports = function(environment) {
-  var ENV = {
+module.exports = function (environment) {
+  const ENV = {
     modulePrefix: 'dummy',
-    environment: environment,
+    environment,
     rootURL: '/',
     locationType: 'auto',
+
+    qualtrics: {
+      enabled: true,
+      key: 'ZN_6iiYseSSygO5qf3',
+      subdomainPrefix: 'zn6iiysessygo5qf3-qcorp',
+    },
+
     EmberENV: {
       FEATURES: {
         // Here you can enable experimental features on an ember canary build
         // e.g. 'with-controller': true
-      }
+      },
     },
 
     APP: {
       // Here you can pass flags/options to your application instance
       // when it is created
-    }
+    },
   };
 
   if (environment === 'development') {
