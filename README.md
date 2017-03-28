@@ -1,5 +1,7 @@
 # Ember-qualtrics
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/dollarshaveclub/ember-qualtrics.svg)](https://greenkeeper.io/)
+
 This README outlines the details of collaborating on this Ember addon.
 
 ## Configuration
